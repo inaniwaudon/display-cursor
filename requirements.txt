@@ -1,0 +1,6 @@
+dlib==19.24.6
+imutils==0.5.4
+numpy==2.1.3
+opencv_python==4.10.0.84
+PyAutoGUI==0.9.54
+screeninfo==0.8.1
