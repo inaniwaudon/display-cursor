@@ -80,7 +80,7 @@ class FaceDetector:
             self.feature_points = self._get_feature_points()
             new_column = [[0], [-60], [-120], [-120], [-130], [-130], [-150], [-150]]
             self.feature_points = np.append(self.feature_points, new_column, axis=1)
-            print("Deletection of reference point is completed")
+            print("Deletection of reference points is completed")
 
         current_feature_points = self._get_feature_points()
         yaw, pitch, roll = self.calculate_angle(current_feature_points)

@@ -14,7 +14,7 @@ python main.py
 python main.py --frame true
 ```
 
-- スクリプト起動時の顔の向きが基準になります．基準点が検出された段階でコマンドラインに Deletection of reference point is completed と表示されます．
+- スクリプト起動時の顔の向きが基準になります．基準点が検出された段階でコマンドラインに Deletection of reference points is completed と表示されます．
 - メインディスプレイの上にサブディスプレイが設置される状況を想定しているため，ピッチ（y 軸の角度）のみで判断しています．閾値は main.py 内の `PITCH_THRESHOLD` を調整してください．
 - スクリプトを終了させる場合は Ctrl + C で終了させてください．
 
@@ -22,6 +22,6 @@ python main.py --frame true
 
 本スクリプトはパブリックドメインとします．
 
-同梱する shape_predictor_68_face_landmarks.dat はパブリックドメインとして公開されていますが，商用利用が制限される可能性がある点に注意してください[^public]．
+同梱される shape_predictor_68_face_landmarks.dat はパブリックドメインとして公開されていますが，商用利用が制限される可能性がある点に注意してください[^public]．
 
 [^public]: https://github.com/davisking/dlib-models/blob/master/README.md
